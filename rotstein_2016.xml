@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="rotstein_2016">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Digital Marmor Parium</title>
+        <sponsor>University of Leipzig</sponsor>
+        
+        <respStmt>
+          <persName xml:id="MB">Monica Berti</persName>
+          <resp>Editor in chief</resp>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <authority/>
+        <idno type="filename">rotstein_2016.xml</idno>
+        <authority>University of Leipzig</authority>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Available under a Creative Commons Attribution International 4.0 License</licence>
+        </availability>
+        <date>2019</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
+      
+      <sourceDesc>
+        <listBibl xml:lang="en">
+          <biblStruct>
+            <monogr>
+              <title type="main">Literary History in the Parian Marble</title>
+              <editor>
+                <persName>
+                  <name xml:lang="la">Andrea Rotstein</name>
+                </persName>
+              </editor>
+              <imprint>
+                <publisher>Center for Hellenic Studies</publisher>
+                <pubPlace>Washington, D.C.</pubPlace>
+                <date>2016</date>
+              </imprint>             
+            </monogr>
+            
+            <ref></ref>
+            
+          </biblStruct>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards</p>
+    </encodingDesc>
+    
+    <profileDesc>
+      <langUsage>
+        <language ident="en">English</language>
+        <language ident="grc">Greek</language>
+      </langUsage>
+      
+      <calendarDesc>
+        <calendar xml:id="marmor_parium">
+          <p>Marmor Parium year elapsing from 264/63 BC</p>
+        </calendar>
+        <calendar xml:id="attic">
+          <p>Attic calendar</p>
+        </calendar>
+      </calendarDesc>
+    </profileDesc>
+    
+    <revisionDesc>
+      <change who="#MB" when="2019-09-17">Created XML file</change>
+    </revisionDesc>
+    
+  </teiHeader>
+  
+  <text>
+    
+    <body>
+      <div type="bibliography"/>
+      
+      <div type="edition" xml:lang="grc">
+        <div type="textpart" subtype="fragment" n="A1">
+          <ab>
+            <seg type="intro">
+              <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>OY<gap reason="lost" extent="unknown" unit="character"/>ν παν<supplied reason="lost">τοί</supplied>ων <gap reason="lost" extent="unknown" unit="character"/>νων ἀνέγραψα τοὺς ἀν<gap reason="lost" extent="unknown" unit="character"/>
+              <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> ἀρξάμ<supplied reason="lost">εν</supplied>ος ἀπὸ Κέκροπος τοῦ πρώτου βασιλεύσαντος Ἀθηνῶν εἵως ἄρχοντος ἐμ Πάρωι <gap reason="lost" extent="unknown" unit="character"/>
+              <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>υάνακτος, Ἀθήνησιν δὲ Διογνήτου. <space extent="5" unit="character"/></seg>
+            <seg type="entry" n="1">ἀφ᾿ οὗ Κέκροψ Ἀθηνῶν ἐβασίλευσε, καὶ ἡ χώρα Κεκροπία ἐκλήθη τὸ πρότερον καλου
+              <lb n="4" break="no"/>μένη Ἀκτικὴ ἀπὸ Ἀκταίου τοῦ αὐτόχθονος, ἔτη <date from="-1581" to="-1580" when-custom="1318" datingMethod="#marmor_parium"><num type="acrophonic">ΧΗΗΗΔ&#x10143;ΙΙΙ</num></date>.</seg>
+            <seg type="entry" n="2">ἀφ᾿ οὗ Δευκαλίων παρὰ τὸν Παρνασσὸν ἐν Λυκωρείαι ἐβασίλευσε, <supplied reason="lost">βα</supplied>σιλε<supplied reason="lost">ύ
+              <lb n="5" break="no"/>ο</supplied>ντος Ἀθηνῶν Κέκροπος, ἔτη <date from="-1573" to="-1572" when-custom="1310" datingMethod="#marmor_parium"><num type="acrophonic">ΧΗΗΗΔ</num></date>.</seg>
+            <seg type="entry" n="3">ἀφ᾿ οὗ δίκη Ἀθήνησι <supplied reason="lost">ἐγέ</supplied>νετο Ἄρει καὶ Ποσειδῶνι ὑπὲρ Ἁλιρροθίου τοῦ Ποσειδῶνος, καὶ ὁ τόπος ἐκλήθη
+              <lb n="6"/>Ἄρειος Πάγος, ἔτη <date from="-1531" to="-1530" when-custom="1268" datingMethod="#marmor_parium"><num type="acrophonic">ΧΗΗ&#x10144;Δ&#x10143;ΙΙΙ</num></date>, βασιλεύοντος Ἀθηνῶν Κρ<supplied reason="lost">ανα</supplied>οῦ.</seg>
+            <seg type="entry" n="4">ἀφ᾿ οὗ κατακλυσμὸς ἐπὶ Δευκαλίωνος ἐγένετο, καὶ Δευκαλίων τοὺς
+              <lb n="7"/>ὄμβρους ἔφυγεν ἐγ Λυκωρείας εἰς Ἀθήνας πρὸ<supplied reason="lost">ς</supplied> <gap reason="lost" extent="unknown" unit="character"/>ΟΝ, καὶ τοῦ Διὸ<supplied reason="lost">ς</supplied> <gap reason="lost" extent="unknown" unit="character"/>ΥΟ<gap reason="lost" extent="unknown" unit="character"/>ΜΤΟΥ τὸ ἱ<supplied reason="lost">ε</supplied>ρὸν ἱδ<supplied reason="lost" cert="low">ρύσατ</supplied>ο <supplied reason="lost">καὶ</supplied> τὰ σωτήρια ἔθυσεν,
+              <lb n="8"/>ἔτη <date from="-1528" to="-1527" when-custom="1265" datingMethod="#marmor_parium"><num type="acrophonic">ΧΗΗ&#x10144;Δ&#x10143;</num></date>, βασιλεύοντος Ἀθηνῶν Κραναοῦ.</seg>
+            <seg type="entry" n="5">ἀ<supplied reason="lost">φ᾿ οὗ Ἀμφι</supplied>κτύων Δευκαλίωνος ἐβασίλευσεν ἐν Θερμοπύλαις καὶ συνήγε<supplied reason="lost">ι
+        	  <lb n="9" break="no"/>ρε τ</supplied>οὺς περὶ τὸ <supplied reason ="lost">ἱε</supplied>ρὸν οἰκοῦντας καὶ ὠνόμασεν Ἀμφικτύονας καὶ π<gap reason="lost" extent="unknown" unit="character"/>ν οὗ<supplied reason="lost">περ</supplied> καὶ νῦν ἔτι θύουσιν Ἀμφικτύονες
+              <lb n="10"/>ἔτη <date from="-1521" to="-1520" when-custom="1258" datingMethod="#marmor_parium"><num type="acrophonic">ΧΗΗ&#x10144;&#x10143;ΙΙΙ</num></date>, βασιλεύοντος Ἀθηνῶν Ἀμφικτύονος.</seg>
+            <seg type="entry" n="6">ἀφ᾿ οὗ Ἕλλην ὁ Δευκ<supplied reason="lost">αλίωνος Φθι</supplied>ώτιδος ἐβασίλευσε, καὶ Ἕλληνες
+              <lb n="11"/>ὠνομάσθησαν τὸ πρότερον Γραικοὶ καλούμενοι, καὶ τὸν ἀγῶνα <surplus>Παναθ<supplied reason="omitted">η</supplied>ναι</surplus> <gap reason="lost" extent="unknown" unit="character"/>ΩΙ <supplied reason="lost">ἔτη</supplied> <date from="-1520" to="-1519" when-custom="1257" datingMethod="#marmor_parium"><num type="acrophonic">ΧΗΗ&#x10144;&#x10143;ΙΙ</num></date>, βασιλεύοντος
+              <lb n="12"/>Ἀθηνῶν Ἀμφικτύονος.</seg>
+            <seg type="entry" n="7">ἀφ᾿ οὗ Κάδμος ὁ Ἀγήνορος εἰς Θήβας ἀφίκετο <gap reason="lost" quantity="30" unit="character"/> <supplied reason="lost" precision="low">καὶ</supplied> ἔκτισεν τὴν Καδμεί
+              <lb n="13" break="no"/>αν, ἔτη <date from="-1518" to="-1517" when-custom="1255" datingMethod="#marmor_parium"><num type="acrophonic">ΧΗΗ&#x10144;&#x10143;</num></date>, βασιλεύοντος Ἀθηνῶν Ἀμφικτύονος.</seg>
+            <seg type="entry" n="8">ἀφ᾿ οὗ <gap reason="lost" quantity="40" unit="character" precision="low"/>νικης ἐβασίλευσαν,
+              <lb n="14"/> ἔτη <date from="-1515" to="-1514" when-custom="1252" datingMethod="#marmor_parium"><num type="acrophonic">ΧΗΗ&#x10144;ΙΙ</num></date>, βασιλεύοντος Ἀθηνῶν Ἀμφικτύονος.</seg>
+            <seg type="entry" n="9">ἀφ᾿ οὗ ναῦ<supplied reason="lost">ς</supplied> <gap reason="lost" quantity="40" unit="character" precision="low"/> <supplied reason="lost">κωπ</supplied>ῶν ἐξ Αἰγύπτου
+              <lb n="15"/>εἰς τὴν Ἑλλάδα ἔπλευσε καὶ ὠνομάσθη πεντηκόντορος, καὶ αἱ Δαναοῦ θυγατέρες <gap reason="lost" quantity="20" unit="character" precision="low"/>ΩΝΗ καὶ ΒΑ<gap reason="lost" extent="unknown" unit="character"/>
+              <lb n="16"/><gap reason="lost" extent="unknown" unit="character"/>ΛΑΡΕΥΩ καὶ Ἑλίκη καὶ Ἀρχεδίκη ἀποκληρωθεῖσαι ὑπὸ τῶν λοιπῶν <gap reason="lost" quantity="45" unit="character" precision="low"/>αντ<supplied reason="lost">ο</supplied>
+              <lb n="17"/>καὶ ἔθυσαν ἐπὶ τῆς ἀκτῆς ἐμ ΠΑΡΑ<unclear/>ΑΔΙ ἐν Λίνδωι τῆς Ῥοδίας, ἔτη <date from="-1510" to="-1509" when-custom="1247" datingMethod="#marmor_parium"><num type="acrophonic">ΧΗΗΔΔΔΔ&#x10143;ΙΙ</num></date>, βασιλεύο<supplied reason="lost">ντος Ἀθηνῶν</supplied> <gap reason="lost" extent="unknown" unit="character"/>.</seg>
+            <seg type="entry" n="10"><supplied reason="lost">ἀφ᾿ οὗ Ἐριχ</supplied>
+              <lb n="18" break="no"/>θόνιος Παναθηναίοις τοῖς πρώτοις γενομένοις ἅρμα ἔζευξε καὶ τὸν ἀγῶνα ἐδείκνυε καὶ Ἀθηναίους <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">ON</supplied><gap reason="lost" extent="unknown" unit="character"/>, <supplied reason="lost">κ</supplied>αὶ <supplied reason="lost">ἄγαλμα
+              <lb n="19" break="no"/>θ</supplied>εῶν μητρὸς ἐφάνη ἐγ Κυβέλοις, καὶ Ὕαγνις ὁ Φρὺξ αὐλοὺς πρῶτος ηὗρεν ἐγ Κ<gap reason="lost" extent="unknown" unit="character"/> τοὺς Φρύγας <supplied reason="lost">καὶ ἁρμονίαν τὴν κ</supplied>α
+              <lb n="20" break="no"/>λουμένην Φρυγιστὶ πρῶτος ηὔλησε καὶ ἄλλους νόμους Μητρὸς Διονύσου Πανὸς καὶ τὸν ΕΠ<gap reason="lost" quantity="30" unit="character" precision="low"/>
+              <lb n="21"/><gap reason="lost" extent="unknown" unit="character"/>, ἔτη <date from="-1505" to="-1504" when-custom="1242" datingMethod="#marmor_parium"><num type="acrophonic">ΧΗΗΔΔΔΔΙΙ</num></date>, βασιλεύοντος Ἀθηνῶν Ἐριχθονίου τοῦ τὸ ἅρμα ζεύξαντος.</seg>
+            <seg type="entry" n="11">ἀφ᾿ οὗ Μίνως <gap reason="lost" extent="unknown" unit="character"/> πρ<gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">ἐ</supplied>βα<supplied reason ="lost">σίλευσε</supplied><gap reason="lost" extent="unknown" unit="character"/>
+              <lb n="22"/><unclear>Ἀ</unclear><supplied reason="lost">πολ</supplied><unclear>λ</unclear>ωνίαν ὤικισε καὶ σίδηρος ηὑρέθη ἐν τῆι Ἴδηι, εὑρόντων τῶν Ἰδαίων Δακτύλων Κέλμιος κ<supplied reason="lost">αὶ Δαμναμενέως</supplied><gap reason="lost" quantity="30" unit="character" precision="low"/>, <supplied reason="lost">βα
+              <lb n="23" break="no"/>σι</supplied>λεύοντος Ἀθηνῶν Πανδίονος.</seg>
+            <seg type="entry" n="12">ἀφ᾿ οὗ Δημήτηρ ἀφικομένη εἰς Ἀθήνας καρπὸν ἐφύ<supplied reason="lost">τευ</supplied><unclear>σ</unclear>εν, καὶ πρ<supplied reason="lost" cert="low">οηροσία ἐ</supplied>πρά<supplied reason="lost">χθη πρ</supplied>ώτη, δ<gap reason="lost" quantity="25" unit="character" precision="low"/>
+              <lb n="24"/><supplied reason="lost">Τ</supplied>ριπτολέμου τοῦ Κελεοῦ καὶ Νεαίρας, ἔτη <date from="-1409" to="-1408" when-custom="1146" datingMethod="#marmor_parium"><num type="acrophonic">ΧΗΔΔΔΔ&#x10143;<supplied reason="omitted">Ι</supplied></num></date>, βασιλεύοντος Ἀθήνησιν Ἐριχθέως.</seg>
+            <seg type="entry" n="13">ἀφ᾿ οὗ Τριπτό<supplied reason="lost">λεμος</supplied> <gap reason="lost" quantity="20" unit="character" precision="low"/>
+              <lb n="25"/><gap reason="lost" extent="unknown" unit="character"/> ἔσπειρεν ἐν τῆι Ῥαρίαι καλουμένηι Ἐλευσῖνι, ἔτη <date from="-1408" to="-1407" when-custom="1145" datingMethod="#marmor_parium"><num type="acrophonic">Χ<supplied reason="lost">Η</supplied>ΔΔΔΔ&#x10143;</num></date>, βασιλεύοντος Ἀθηνῶν <supplied reason="lost">Ἐριχθέως</supplied>.</seg>
+            <seg type="entry" n="14">
+              <supplied reason="lost">ἀφ᾿ οὗ Ὀρφεὺς</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+              <lb n="26"/>ὑιὸ<supplied reason="lost">ς</supplied> <gap reason="lost" extent="unknown" unit="character"/>ν<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἑ</supplied>αυτοῦ πόησιν ἐξέθηκε, Κόρης τε ἁρπαγὴν καὶ Δήμητρος ζήτησιν καὶ τὸν αὐτου<gap reason="lost" extent="unknown" unit="character"/>
+              <lb n="27"/><gap reason="lost" extent="unknown" unit="character"/>θος τῶν ὑποδεξαμένων τὸν καρπόν, ἔτη <date from="-1398" to="-1397" when-custom="1135" datingMethod="#marmor_parium"><num type="acrophonic">ΧΗΔΔΔ&#x10143;</num></date>, βασιλεύοντος Ἀθηνῶν Ἐριχθέως.</seg>
+            <seg type="entry" n="15"><supplied reason="lost" cert="low">ἀφ᾿ οὗ Εὔμολπος</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+              <lb n="28"/><gap reason="lost" extent="unknown" unit="character"/>ΝΟΥ τὰ μυστήρια ἀνέφηνεν ἐν Ἐλευσῖνι καὶ τὰς τοῦ <supplied reason="lost">πατρὸς Μ</supplied>ουσαίου ποιήσ<supplied reason="lost">ει</supplied>ς ἐξέθηκ<supplied reason="lost">εν</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">βασιλεύοντος Ἀθηνῶν
+              <lb n="29" break="no"/>Ἐριχθέ</supplied>ως τοῦ Πανδίονος.</seg>
+            <seg type="entry" n="16">ἀφ᾿ οὗ καθαρμὸς πρῶτον ἐγένετο <gap reason="lost" extent="unknown" unit="character"/>ου πρώτωι ΑΟΝ<gap reason="lost" extent="unknown" unit="character"/>ΕΑΝΤ<gap reason="lost" extent="unknown" unit="character"/>
+              <lb n="30"/><supplied reason="lost">ἔτη</supplied> <gap reason="lost" extent="unknown" unit="character"/>ΔΙΙ, βασιλεύοντος Ἀθηνῶν Πανδίονος τοῦ Κέκροπος.</seg>
+            <seg type="entry" n="17">ἀφ᾿ οὗ ἐν Ἐλευσῖνι ὁ γυμνικὸς <supplied reason="lost">ἀγὼν</supplied><gap reason="lost" extent="unknown" unit="character"/> ΑΦΟΥ<gap reason="lost" extent="unknown" unit="character"/>
+              <lb n="31"/><gap reason="lost" extent="unknown" unit="character"/>ΑΙ<gap reason="lost" extent="unknown" unit="character"/> τὰ Λύκαια ἐν Ἀρκαδίαι ἐγένετο καὶ Λ <gap reason="lost" extent="unknown" unit="character"/>ΚΚΕ<gap reason="lost" extent="unknown" unit="character"/> Λυκάονος ἐδόθησαν <gap reason="lost" extent="unknown" unit="character"/> τοῖς Ἕλλ<supplied reason="lost">η</supplied>σι<supplied reason="lost">ν</supplied><gap reason="lost" extent="unknown" unit="character"/>Η<gap reason="lost" extent="unknown" unit="character"/>N<gap reason="lost" extent="unknown" unit="character"/> βασιλεύον
+              <lb n="32" break="no"/>τος Ἀθηνῶν Πανδίονος τοῦ Κέκροπος.</seg>
+            <seg type="entry" n="18">ἀφ᾿ οὗ κα<gap reason="lost" extent="unknown" unit="character"/>Γ<gap reason="lost" extent="unknown" unit="character"/>ησιαι Ἡρακλῆς <gap reason="lost" extent="unknown" unit="character"/>Ν<gap reason="lost" extent="unknown" unit="character"/>Ω<gap reason="lost" extent="unknown" unit="character"/>ΔΟΣΤ<gap reason="lost" extent="unknown" unit="character"/>
+              <lb n="33"/>βασιλεύοντος Ἀθήνησιν Αἰγέως.</seg>
+            <seg type="entry" n="19">ἀφ᾿ οὗ Ἀθήνησι <supplied reason="lost">σπάνι</supplied>ς τῶν καρπῶν ἐγένετο καὶ μαντευομένο<supplied reason="omitted">ι</supplied>ς <gap reason="lost" extent="unknown" unit="character"/> Ἀθην<supplied reason="lost">αίοις Ἀπό</supplied><unclear>λ</unclear>λων ἔ<unclear>χ</unclear><unclear>ρ</unclear>η<supplied reason="lost" cert="low">σε
+              <lb n="34" break="no"/>δίκα</supplied>ς ὑποσχε<supplied reason="omitted">ῖ</supplied>ν <gap reason="lost" extent="unknown" unit="character"/> ἃ<supplied reason="lost">ς</supplied> ἂμ Μίνως ἀξιώσει, ἔτη <date from="-1294" to="-1293" when-custom="1031" datingMethod="#marmor_parium"><num type="acrophonic">ΧΔΔΔΙ</num></date>, βασιλεύοντος Ἀθηνῶν Αἰγέως.</seg>
+            <seg type="entry" n="20">ἀφ᾿ οὗ Θησ<supplied reason="lost">εὺς</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">βασιλεύσας</supplied>
+              <lb n="35"/>Ἀθηνῶν τὰς δώδεκα πόλεις εἰς τὸ αὐτὸ συνώικισεν καὶ πολιτείαν καὶ τὴν δημοκρατίαν π<unclear>αρέδ</unclear>ω<supplied reason="lost">κε</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+              <lb n="36"/><gap reason="lost" extent="unknown" unit="character"/>ΟΣ Ἀθηνῶν τὸν τῶν Ἰσθμίων ἀγῶνα ἔθηκε Σίνιν ἀποκτείνας, ἔτη <date from="-1259" to="-1258" when-custom="995" datingMethod="#marmor_parium"><num type="acrophonic">𐅅ΗΗΗΗ&#x10144;ΔΔΔΔ&#x10143;</num></date>.</seg>
+            <seg type="entry" n="21">ἀπὸ τῆς Ἀμ<supplied reason="lost"><unclear>αζ</unclear></supplied>όν<supplied reason="lost" cert="low">ων</supplied> <gap reason="lost" extent="unknown" unit="character"/> TH<gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">, ἔτη</supplied>
+              <lb n="37"/><date from="-1256" to="-1255" when-custom="992" datingMethod="#marmor_parium"><num type="acrophonic"><supplied reason="lost">𐅅ΗΗΗΗ&#x10144;</supplied>ΔΔΔΔΙΙ</num></date>, βασιλεύοντος Ἀθηνῶν Θησέως.</seg>
+            <seg type="entry" n="22">ἀφ᾿ οὗ Ἀργεῖοι <unclear>μ</unclear>ε<unclear>τ</unclear>’ Ἀδράσ<supplied reason="lost">του ἐπὶ Θή</supplied>βας <supplied reason="lost">ἐστράτ</supplied>ευσαν καὶ τὸν ἀγῶνα ἐν <supplied reason="lost">Νεμέ</supplied>α <supplied reason="lost">ι ἔ</supplied>θ<supplied reason="lost">εσ</supplied>αν <gap reason="lost" extent="unknown" unit="character"/>
+              <lb n="38"/><gap reason="lost" extent="unknown" unit="character"/>, ἔτη <date from="-1251" to="-1250" when-custom="987" datingMethod="#marmor_parium"><num type="acrophonic">𐅅ΗΗΗΗ&#x10144;ΔΔΔ&#x10143;ΙΙ</num></date>, βασιλεύοντος Ἀθηνῶν Θησέως.</seg>
+            <seg type="entry" n="23">ἀφ᾿ οὗ οἱ <supplied reason="lost">Ἕλλη</supplied>νες εἰς Τροίαν ἐ<supplied reason="lost">στ</supplied>ράτευσ<supplied reason="lost">αν</supplied>, ἔτη <date from="-1218" to="-1217" when-custom="954" datingMethod="#marmor_parium"><num type="acrophonic">𐅅ΗΗΗΗ&#x10144;ΙΙΙΙ</num></date>, βασιλεύοντος Ἀθη<supplied reason="lost">νῶν
+              <lb n="39" break="no"/>Μεν</supplied>εσθέως τρεισκαιδεκάτου ἔτους.</seg>
+            <seg type="entry" n="24">ἀφ᾿ οὗ Τροία ἥλω, ἔτη <date from="-1209" to="-1208" when-custom="945" datingMethod="#marmor_parium"><num type="acrophonic">𐅅ΗΗΗΗΔΔΔΔ&#x10143;</num></date>, βασιλεύοντος Ἀθηνῶν <supplied reason="lost">Μενεσθέ</supplied>ως δευτέρου <supplied reason="omitted">καὶ εἰκοστοῦ</supplied> ἔτους μηνὸς Θ<supplied reason="lost">αρ
+              <lb n="40" break="no"/>γηλιῶ</supplied>νος ἑβδόμηι φθίνοντος.</seg>
+            <seg type="entry" n="25">ἀφ᾿ οὗ Ὀρέστη<supplied reason="lost">ι</supplied> <gap reason="lost" extent="unknown" unit="character"/>ΙΟΙΑΙΤΩΝΑΥΤΟ<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">καὶ τῆι Α</supplied>ἰγίσθου θυγατρὶ <supplied reason="lost">Ἠριγ</supplied>όν<supplied reason="lost">ηι</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Αἰ</supplied>γίσθου καὶ ΑΥ<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">δίκη
+              <lb n="41" break="no"/>ἐγένε</supplied><unclear>τ</unclear>ο ἐν Ἀρεί<unclear>ωι</unclear> Πάγωι, ἣν Ὀρέστης ἐνίκησεν <gap reason="lost" extent="unknown" unit="character"/>ων<gap reason="lost" extent="unknown" unit="character"/>, ἔτη <date from="-1208" to="-1207" when-custom="944" datingMethod="#marmor_parium"><num type="acrophonic"><supplied reason="lost">𐅅</supplied>ΗΗΗΗΔΔΔ<supplied reason="lost">ΔΙΙ</supplied>ΙΙ</num></date>, βασιλεύοντος Ἀθηνῶν Δημοφῶντος.</seg>
+            <seg type="entry" n="26">ἀφ᾿ οὗ <supplied reason="lost">Σαλαμῖνα
+              <lb n="42" break="no"/>τὴν ἐγ</supplied> Κύπρωι Τεῦκρος ὤικισεν, ἔτη <date from="-1202" to="-1200" when-custom="938" datingMethod="#marmor_parium"><num type="acrophonic">𐅅ΗΗΗΗΔΔΔ&#x10143;ΙΙΙ</num></date>, βασιλεύοντος Ἀθηνῶν Δημοφῶντος.</seg>
+            <seg type="entry" n="27">ἀφ᾿ οὗ Νη<supplied reason="lost">λ</supplied>εὺς ὤικισ<supplied reason="lost">ε Μίλη</supplied><unclear>τ</unclear><supplied reason="lost">ον</supplied> <gap reason="lost" extent="unknown" unit="character"/>ΑΛΑΗΧΑΡ <gap reason="lost" extent="unknown" unit="character"/> ΣΙ
+              <lb n="43"/><gap reason="lost" extent="unknown" unit="character"/>αν,  Ἔφεσον Ἐρυθρὰς Κλαζομενὰς <unclear>Π</unclear><supplied reason="lost">ρι</supplied>ήν<unclear>ην</unclear> <unclear>Λέβεδ</unclear>ον <unclear>Τέω</unclear> Κολοφῶνα <unclear>Μ</unclear>υοῦντα <supplied reason="lost">Φώκ</supplied>α<supplied reason="lost">ιαν</supplied> Σάμον <supplied reason="lost">Χίον καὶ</supplied> τὰ <supplied reason="lost">Παν</supplied>ιώνι<supplied reason="lost">α</supplied> ἐγένετο, ἔτ<supplied reason="lost">η</supplied>
+              <lb n="44"/><date from="-1087" to="-1075" when-custom="813" datingMethod="#marmor_parium"><num type="acrophonic"><supplied reason="lost">𐅅ΗΗΗ</supplied>ΔΙΙΙ</num></date>, βασιλεύοντος Ἀθηνῶν Μέ<supplied reason="omitted">δοντο</supplied>ς <surplus>νεσθ<supplied reason="omitted">έ</supplied>ως τρεισκαιδεκάτου <supplied reason="lost">ἔτο</supplied>υς</surplus>.</seg>
+            <seg type="entry" n="28">ἀφ᾿ οὗ <supplied reason="lost">Ἡσ</supplied>ίοδος ὁ ποιητὴς <supplied reason="lost">ἐφάν</supplied>η, ἔτη <date><num type="acrophonic">𐅅Η&#x10144;ΔΔ<gap reason="lost" extent="unknown" unit="character"/></num></date>, βασιλεύοντος ᾽Αθηνῶν <gap reason="lost" extent="unknown" unit="character"/>
+              <lb n="45"/><gap reason="lost" extent="unknown" unit="character"/>.</seg>
+            <seg type="entry" n="29">ἀφ᾽ οὗ Ὅμηρος ὁ ποιητὴς ἐφάνη, ἔτη  <date from="-0907" to="-0905" when-custom="643" datingMethod="#marmor_parium"><num type="acrophonic">𐅅ΗΔΔΔΔΙΙΙ</num></date>, βασιλεύοντο ᾽Αθηνῶ<supplied reason="lost">ν Δ</supplied>ιογνήτου.</seg>
+          </ab>
+        </div>
+        
+        <div type="textpart" subtype="fragment" n="A2">
+          <ab>
+            <seg type="entry" n="30">ἀφ᾿ οὗ Φ<supplied reason="lost">εί</supplied>δων ὁ Ἀργεῖος ἐδήμευσ<supplied reason="lost">ε τὰ</supplied> μέ<unclear>τ</unclear><supplied reason="lost">ρα καὶ
+              <lb n="46" break="no"/>στ</supplied>αθμὰ κατεσκεύασε καὶ νόμισμα ἀργυροῦν ἐν Αἰγίνηι ἐποίησεν, ἑνδέκατος ὢν ἀφ’ Ἡρακλέους, ἔτη <date from="-0895" to="-0893" when-custom="631" datingMethod="#marmor_parium"><num type="acrophonic">𐅅ΗΔΔΔΙ</num></date>, βασιλεύοντος Ἀθηνῶν
+              <lb n="47"/><supplied reason="lost">Φερεκλ</supplied><unclear>ε</unclear>ίους.</seg>
+            <seg type="entry" n="31">ἀφ᾿ οὗ Ἀρχίας Εὐαγήτου δέκατος ὢν ἀπὸ Τημένου ἐκ Κορίνθου ἤγαγε τὴν ἀποικίαν <supplied reason="lost">καὶ ἔκτισε</supplied> Συρακού<supplied reason="lost">σσας, ἔτη</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+              <lb n="48"/><supplied reason="lost">β</supplied><unclear>α</unclear><supplied reason="lost">σι</supplied>λεύ<supplied reason="lost">ο</supplied><unclear>ν</unclear>τος Ἀθηνῶν Αἰσχύλου ἔτους εἰκοστοῦ καὶ ἑνός.</seg>
+            <seg type="entry" n="32">ἀφ᾿ οὗ κατ’ ἐνιαυτὸν ἦρξεν ὁ ἄρ<unclear>χ</unclear>ων, ἔτη <date from="-0683" to="-0682" when-custom="420" datingMethod="#marmor_parium"><num type="acrophonic">ΗΗΗΗΔΔ</num></date>.</seg>
+            <seg type="entry" n="33">ἀφ᾿ οὗ <gap reason="lost" extent="unknown" unit="character"/>ο<gap reason="lost" extent="unknown" unit="character"/>υ<gap reason="lost" extent="unknown" unit="character"/>
+              <lb n="49"/><gap reason="lost" extent="unknown" unit="character"/> ἔτη <date from="-0682" to="-0680" when-custom="418" datingMethod="#marmor_parium"><num type="acrophonic">ΗΗΗΗΔ&#x10143;ΙΙΙ</num></date>, ἄρχοντος Ἀθήνησι Λυσιά<supplied reason="lost">δου</supplied>.</seg>
+            <seg type="entry" n="34">ἀφ᾿ οὗ Τέρπανδρος ὁ Δερδένεος ὁ Λέσβιος τοὺς νόμους τοὺ<supplied reason="lost">ς κιθ</supplied>α<supplied reason="lost">ρ</supplied>ω<unclear>ιδ</unclear><supplied reason="lost">ικ</supplied>οὺς καὶ αὐλητ<supplied reason="lost">ικ</supplied><gap reason="lost" extent="unknown" unit="character"/>
+              <lb n="50"/><gap reason="lost" extent="unknown" unit="character"/>λησε καὶ τὴν ἔμπροσθε μουσικὴν μετέστησεν, ἔτη <date from="-0645" to="-0643" when-custom="381" datingMethod="#marmor_parium"><num type="acrophonic">ΗΗΗ&#x10144;ΔΔΔΙ</num></date>, ἄρχοντος Ἀθήνησιν Δρωπίδου.</seg>
+            <seg type="entry" n="35">ἀφ᾿ οὗ Ἀ<supplied reason="lost">λυάττη</supplied>ς Λυδ<supplied reason="lost">ῶν ἐβα</supplied>σίλευσ<supplied reason="lost">εν, ἔτη</supplied>
+              <lb n="51"/><date from="-0605" to="-0603" when-custom="341" datingMethod="#marmor_parium"><num type="acrophonic"><supplied reason="lost">Η</supplied><unclear>Η</unclear><supplied reason="lost">Η</supplied>ΔΔΔΔΙ</num></date>, ἄρχοντος Ἀθήνησιν Ἀριστοκλε<supplied reason="lost">ί</supplied>ους.</seg>
+            <seg type="entry" n="36">ἀφ᾿ οὗ Σαπφὼ ἐγ Μυτιλήνης εἰς Σικελίαν ἔπλευσε φυγοῦσα <gap reason="lost" extent="unknown" unit="character"/>
+              <lb n="52"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἄρχο</supplied><unclear>ν</unclear>τος Ἀθήνησιν μὲν Κριτίου τοῦ προτέρου, ἐν Συρακούσσαις δὲ τῶν γαμόρων κατεχόντων τὴν ἀρχήν.</seg>
+            <seg type="entry" n="37"><supplied reason="lost">ἀφ’ οὗ</supplied> <unclear>Ἀ</unclear>μ<supplied reason="lost">φικτ</supplied>ύο<supplied reason="lost">νες ἔθ</supplied>υ<supplied reason="lost">σαν κ</supplied><unclear>α</unclear>ταπο
+              <lb n="53" break="no"/><supplied reason="lost">λεμή</supplied>σ<unclear>α</unclear>ντες Κύρραν, καὶ <add place="overstrike">ὁ ἀγὼν ὁ γυμνικὸς ἐτέθη χρ</add>ηματίτης ἀπὸ τῶν λαφύρων, ἔτη <date from="-0591" to="-0590" when-custom="327" datingMethod="#marmor_parium"><num type="acrophonic">ΗΗ<supplied reason="lost">Η</supplied>ΔΔ&#x10143;ΙΙ</num></date>, ἄρχοντος Ἀθήνησιν Σίμω<supplied reason="lost">ν</supplied>ος.</seg>
+            <seg type="entry" n="38">ἀφ’ οὗ <supplied reason="lost">ἐν Δελφοῖ</supplied>ς
+              <lb n="54"/><supplied reason="lost">ὁ στε</supplied><add place="overstrike">>φανίτης ἀγὼν πάλιν ἐτέθη, ἔτη <date from="-0582" to="-0581" when-custom="318" datingMethod="#marmor_parium"><num type="acrophonic">ΗΗΗΔ&#x10143;ΙΙΙ</num></date>, ἄρχοντο</add>ς Ἀθήνησιν Δαμασίου τοῦ δευτέρου.</seg>
+            <seg type="entry" n="39">ἀφ’ οὗ ἐν Ἀθ<supplied reason="lost">ήν</supplied>αις κωμω<supplied reason="lost">ιδῶν χο</supplied>ρ<supplied reason="lost">ὸς ἐτ</supplied>έθη, <supplied reason="lost">στη</supplied>σάν
+              <lb n="55" break="no"/><supplied reason="lost">των πρώ</supplied>των Ἰκαριέων, εὑρόντος Σουσαρίωνος, καὶ ἆθλον ἐτέθη πρῶτον ἰσχάδω<supplied reason="lost">ν</supplied> ἄρσιχο<supplied reason="lost">ς</supplied> καὶ οἴνου με<supplied reason="lost">τ</supplied>ρητής <gap reason="illegible" atLeast="23" atMost="24" unit="character"/>
+              <lb n="56" break="no"/>.</seg>
+            <seg type="entry" n="40">ἀφ’ οὗ Πεισίστρατος Ἀθηνῶν ἐτυράννευσεν, ἔτη <date from="-0561" to="-0560" when-custom="297" datingMethod="#marmor_parium"><num type="acrophonic">ΗΗ&#x10144;ΔΔΔΔ&#x10143;ΙΙ</num></date>, ἄρχοντος <supplied reason="lost">Ἀθήνη</supplied><unclear>σ</unclear>ι Κ<supplied reason="lost">ω</supplied><unclear>μ</unclear><supplied reason="lost">έ</supplied>ου.</seg>
+            <seg type="entry" n="41">ἀφ’ οὗ Κροῖσος <supplied reason="lost">ἐξ</supplied> Ἀσίας <supplied reason="lost">εἰς</supplied> Δελφοὺς ἀ<gap reason="lost" extent="unknown" unit="character"/>
+              <lb n="57"/><supplied reason="lost">ἔτη</supplied> <date  from="-0556" to="-0555" when-custom="292" datingMethod="#marmor_parium"><num type="acrophonic"><supplied reason="lost">Η</supplied>Η<supplied reason="lost">&#x10144;</supplied>ΔΔΔΔΙΙ</num></date>, ἄρχοντος Ἀθήνησιν Εὐθυδήμου.</seg>
+            <seg type="entry" n="42">ἀφ’ οὗ Κῦρος ὁ Περσῶν βασιλεὺς Σάρδεις ἔλαβεν καὶ Κροῖσον ΥΠΟ <gap reason="lost" extent="unknown" unit="character"/> ΗΣΣΦΑΛ <gap reason="lost" extent="unknown" unit="character"/>  <gap reason="illegible" atLeast="40" atMost="44" unit="character"/>
+              <lb n="58"/><supplied reason="lost">ἦν δὲ</supplied> καὶ Ἱππῶναξ κατὰ τοῦτον ὁ ἰαμβοποιός.</seg>
+            <seg type="entry" n="43">ἀφ’ οὗ Θέσπις ὁ ποιητὴς <supplied reason="lost">ὑπεκρίνα</supplied>το πρῶτος <unclear>ὃ</unclear>ς ἐδίδαξε ΝΑΛ <gap reason="lost" extent="unknown" unit="character"/> ΣΤΙΝ <supplied reason="lost">καὶ ἆθλον ἐ</supplied>τέθη ὁ <supplied reason="lost">τ</supplied>ράγος, ἔτη <date><num type="acrophonic">ΗΗ&#x10144;<gap reason="lost" extent="unknown" unit="character"/></num></date>, ἄρχοντος Ἀθ<supplied reason="lost">ήνη
+              <lb n="59" break="no"/>σι</supplied> <gap reason="lost" extent="unknown" unit="character"/>ναίου τοῦ προτέρου.</seg>
+            <seg type="entry" n="44">ἀφ’ οὗ Δαρεῖος Περσῶν ἐβασίλευ<unclear>σ</unclear>ε μάγου τελευτήσαντος, ἔτη <date from="-0520" to="-0518" when-custom="256" datingMethod="#marmor_parium"><num type="acrophonic"><supplied reason="lost">ΗΗ</supplied>&#x10144;<unclear>&#x10143;</unclear><unclear>Ι</unclear></num></date>, ἄρχοντος Ἀθήνησ<supplied reason="lost">ι</supplied> <gap reason="lost" extent="unknown" unit="character"/>.</seg>
+            <seg type="entry" n="45">ἀφ’ οὗ Ἁρμόδιος καὶ <supplied reason="lost">Ἀριστογε</supplied>ίτων ἀπέκτε<supplied reason="lost">ιναν
+              <lb n="60" break="no"/> Ἵππα</supplied>​ρχον Πεισιστράτου <unclear>δ</unclear><supplied reason="lost">ιά</supplied><unclear>δ</unclear><supplied reason="lost">οχ</supplied>ον, καὶ Ἀθηναῖοι <supplied reason="lost">ἐξανέστ</supplied>ησαν τοὺς Πεισιστρατίδας ἐκ <unclear>τ</unclear><supplied reason="lost">οῦ Π</supplied><unclear>ε</unclear>λασγι<unclear>κ</unclear>οῦ τείχους, ἔτη <date from="-0511" to="-0510" when-custom="248" datingMethod="#marmor_parium"><num type="acrophonic">ΗΗΔΔΔΔ&#x10143;ΙΙΙ</num></date>, ἄρχοντος Ἀθήνησιν Ἁ<supplied reason="lost">ρ</supplied>π<supplied reason="lost">ακ
+              <lb n="61" break="no"/><add place="overstrike">τίδου</add></supplied>.</seg>
+            <seg type="entry" n="46"><add place="overstrike">ἀφ’ οὗ χοροὶ πρῶτον ἠγωνίσαντο ἀνδρῶν, ὃν διδάξας Ὑ</add>πό<supplied reason="lost">δι</supplied>κος ὁ Χαλκιδεὺ<supplied reason="lost">ς</supplied> ἐνίκ<supplied reason="lost">α</supplied>, ἔτη <date from="-0510" to="-0508" when-custom="246" datingMethod="#marmor_parium"><num type="acrophonic">ΗΗΔΔΔΔ&#x10143;Ι</num></date>, ἄρχοντος Ἀθήνησιν Λυσαγόρου.</seg>
+            <seg type="entry" n="47">ἀφ’ οὗ Με<supplied reason="lost">λαν</supplied>ιππίδ<supplied reason="lost">ης</supplied> <unclear>Μ</unclear><supplied reason="lost">ήλιος
+              <lb n="62" break="no"/>ἐνίκησ</supplied><add place="overstrike">εν Ἀθήνησιν</add>, ἔτη <date from="-0494" to="-0493" when-custom="231" datingMethod="#marmor_parium"><num type="acrophonic">ΗΗΔΔΔΙ</num></date>, ἄρχοντος Ἀθήνησι Πυθοκρίτου.</seg>
+            <seg type="entry" n="48">ἀφ’ οὗ ἡ ἐμ Μαραθῶνι μάχη ἐγένετο Ἀθηναίοις πρὸς τοὺς Πέρσας Ἀρ<supplied reason="lost">ταφ</supplied>έ<supplied reason="lost">ρνην τε τὸ</supplied>ν Δαρείου ἀδελφι
+              <lb n="63"/><supplied reason="lost">δοῦν κα</supplied>ὶ <supplied reason="lost">Δᾶ</supplied><add place="overstrike">τ<supplied reason="lost">ι</supplied>ν στρατηγόν, ἣν ἐνίκων</add> Ἀθηναῖοι, ἔτη <date from="-0490" to="-0489" when-custom="227" datingMethod="#marmor_parium"><num type="acrophonic">ΗΗΔΔ&#x10143;ΙΙ</num></date>, ἄρχοντος Ἀθήνησιν <unclear>τ</unclear><supplied reason="lost">ο</supplied><unclear>ῦ</unclear> δευτέρου <supplied reason="lost">Φ</supplied><unclear>α</unclear><supplied reason="lost">ι</supplied>ν<supplied reason="lost">ι</supplied>π<supplied reason="lost">πίδ</supplied>ου· ἧι ἐν μάχηι συνηγωνίσατο Αἰσχύλος ὁ ποιητής,
+              <lb n="64"/>ἐτῶν ὢν <date type="age" dur="P35Y"><num type="acrophonic">ΔΔΔ&#x10143;</num></date>.</seg>
+            <seg type="entry" n="49"><add place="overstrike">>ἀφ’ οὗ Σιμωνίδης ὁ Σιμωνίδου πάππος τοῦ ποιητοῦ</add>, ποιητὴς ὢν καὶ αὐτός, ἐνίκησεν Ἀθήνησι, καὶ Δαρεῖος τελευτᾶι, Ξέρξης δὲ ὁ υἱὸς βασιλεύει, ἔ<unclear>τ</unclear><supplied reason="lost">η</supplied>
+              <lb n="65"/><date from="-0489" to="-0488" when-custom="226" datingMethod="#marmor_parium"><num type="acrophonic"><supplied reason="lost">ΗΗ</supplied>ΔΔ&#x10143;Ι</num></date>, ἄρχοντος Ἀθήνησι Ἀριστείδου.</seg>
+            <seg type="entry" n="50">ἀφ’ οὗ Αἰσχύλος ὁ ποιητὴς τραγωιδίαι πρῶτον ἐνίκησε, καὶ Εὐριπίδης ὁ ποιητὴς ἐγένετο, καὶ Στησίχορος ὁ ποιητὴς εἰς
+              <lb n="66"/>τὴν Ἑλλάδα ἀ<supplied reason="lost">φίκετ</supplied>ο, ἔτη <date from="-0486" to="-0484" when-custom="222" datingMethod="#marmor_parium"><num type="acrophonic">ΗΗΔΔΙΙΙ</num></date>, ἄρχοντος Ἀθήνησι Φιλοκράτους.</seg>
+            <seg type="entry" n="51">ἀφ’ οὗ Ξέρξης τὴν σχεδίαν ἔζευξεν ἐν Ἑλλησπόντωι καὶ τὸν Ἄθω διώρυξε, καὶ ἡ ἐν Θερμο<supplied reason="lost">πύ</supplied>
+              <lb n="67"/>λαις μάχη ἐγένετο, καὶ ναυμαχία τοῖς Ἕλλησι περὶ Σαλαμῖνα πρὸς τοὺς Πέρσας, ἣν ἐνίκων οἱ Ἕλληνες, ἔτη <date from="-0480" to="-0479" when-custom="217" datingMethod="#marmor_parium"><num type="acrophonic">ΗΗΔ&#x10143;ΙΙ</num></date>, ἄρχοντος Ἀθήνησι Καλλιάδου.</seg>
+            <seg type="entry" n="52">ἀφ’ οὗ ἡ ἐν
+              <lb n="68"/>Πλαταιαῖς μάχη ἐγένετο Ἀθηναίοις πρὸς Μαρδόνιον τὸν Ξέρξου στρατηγόν, ἣν ἐνίκων Ἀθηναῖοι, καὶ Μαρδόνιος ἐτελεύτησεν ἐν τῆι μάχηι, καὶ τὸ πῦρ ἐρύη ἐ<supplied reason="lost">ν</supplied>
+              <lb n="69"/><unclear>Σ</unclear>ικελίαι περὶ τὴν Αἴτνην, ἔτη <date from="-0479" to="-0478" when-custom="216" datingMethod="#marmor_parium"><num type="acrophonic">ΗΗΔ&#x10143;Ι</num></date>, ἄρχοντος Ἀθήνησι Ξαν<unclear>θ</unclear>ίππου.</seg>
+            <seg type="entry" n="53">ἀφ’ οὗ Γ<supplied reason="lost">έ</supplied>λων ὁ Δεινομένους Σ<supplied reason="lost">υρακο</supplied>υ<supplied reason="lost">σσῶν</supplied> ἐτυράννευσεν, ἔτη <date from="-0478" to="-0477" when-custom="215" datingMethod="#marmor_parium"><num type="acrophonic">ΗΗΗΔ&#x10143;</num></date>, ἄρχοντος Ἀθήνησι Τιμοσθέν<supplied reason="lost">ους</supplied>.
+              <lb n="70"/></seg>
+            <seg type="entry" n="54">ἀφ’ οὗ Σιμωνίδης ὁ Λεωπρέπους ὁ Κεῖος ὁ τὸ μνημονικὸν εὑρὼν ἐνίκησεν Ἀθήνησι διδάσκων, καὶ αἱ εἰκόνες ἐστάθησαν Ἁρμοδίου καὶ Ἀριστογείτονος, ἔτη <date from="-0477" to="-0476" when-custom="213" datingMethod="#marmor_parium"><num type="acrophonic">ΗΗΔ<unclear>ΙΙΙ</unclear></num></date>,
+              <lb n="71"/>ἄρχοντος Ἀθήνησιν <supplied reason="lost">Ἀ</supplied>δειμάντου.</seg>
+            <seg type="entry" n="55">ἀφ’ οὗ Ἱέρων Συρακουσσῶν ἐτυράννευσεν, ἔτη <date from="-0472" to="-0471" when-custom="208" datingMethod="#marmor_parium"><num type="acrophonic">ΗΗ&#x10143;ΙΙΙ</num></date>, ἄρχοντος Ἀθήνησι Χ<unclear>ά</unclear><supplied reason="lost">ρ</supplied>ητος· ἦν δὲ καὶ Ἐπίχαρμος ὁ ποιητὴς κατὰ τοῦ
+              <lb n="72" break="no"/>τον.</seg>
+            <seg type="entry" n="56">ἀφ’ οὗ Σοφοκλῆς ὁ Σοφίλλου ὁ ἐκ Κολωνοῦ ἐνίκησε τραγωιδίαι, ἐτῶν ὢν <date type="age" dur="P28Y"><num type="acrophonic">ΔΔ&#x10143;ΙΙΙ</num></date>, ἔτη <date from="-0469" to="-0468" when-custom="206" datingMethod="#marmor_parium"><num type="acrophonic">ΗΗ&#x10143;Ι</num></date>, ἄρχοντος Ἀθήνησι Ἀψηφίωνος.</seg>
+            <seg type="entry" n="57">ἀφ’ οὗ ἐν Αἰγὸς ποταμοῖς ὁ λίθος ἔπεσε,
+              <lb n="73"/>καὶ Σιμωνίδης ὁ ποιητὴς ἐτελεύτησεν, βιοὺς ἔτη <date type="age" dur="P90Y"><num type="acrophonic">&#x10144;ΔΔΔΔ</num></date>, ἔτη <date from="-0468" to="-0467" when-custom="205" datingMethod="#marmor_parium"><num type="acrophonic">ΗΗ&#x10143;</num></date>, ἄρχοντος Ἀθήνησι Θεαγενίδου.</seg>
+            <seg type="entry" n="58">ἀφ’ οὗ Ἀλέξανδρος ἐτελεύτησεν, ὁ δὲ υἱὸς Περδίκ
+              <lb n="74" break="no"/>κας Μακεδόνων βασιλεύει, ἔτη <date from="-0461" to="-0460" when-custom="199" datingMethod="#marmor_parium"><num type="acrophonic">Η&#x10144;ΔΔΔΔ&#x10143;ΙΙΙΙ</num></date>, ἄρχοντος Ἀθήνησιν Εὐθίππου.</seg>
+            <seg type="entry" n="59">ἀφ’ οὗ Αἰσχύλος ὁ ποιητής, <add place="overstrike">βιώσας ἔτη</add> <date type="life-span" dur="P69Y"><num type="acrophonic"><add place="overstrike">&#x10144;Δ&#x10143;</add>ΙΙΙΙ</num></date>, ἐτελεύτησεν ἐγ <supplied reason="lost">Γέ
+              <lb n="75" break="no"/>λ</supplied>αι τῆς Σικελίας, ἔτη <date from="-0456" to="-0455" when-custom="193" datingMethod="#marmor_parium"><num type="acrophonic">Η&#x10144;ΔΔΔΔΙΙΙ</num></date>, ἄρχοντος Ἀθήνησι Καλλ<unclear>έ</unclear>ου τοῦ προτέρου.</seg>
+            <seg type="entry" n="60">ἀφ’ οὗ Εὐριπίδης ἐτῶν ὢν <date type="age" dur="P44Y"><num type="acrophonic">ΔΔΔΔΙΙΙΙ</num></date> τραγωιδίαι πρῶτον ἐνίκησεν, ἔτη <date from="-0442" to="-0441" when-custom="179" datingMethod="#marmor_parium"><num type="acrophonic">Η&#x10144;Δ<supplied reason="lost">Δ&#x10143;ΙΙΙΙ</supplied></num></date>,
+              <lb n="76"/><supplied reason="lost">ἄρ</supplied>χοντος Ἀθήνησι Διφίλο<supplied reason="lost">υ· ἦ</supplied>σαν δὲ κατ’ Εὐριπίδην Σωκράτης τε καὶ Ἀναξαγόρας.</seg>
+            <seg type="entry" n="61">ἀφ’ οὗ Ἀρχέλαος Μακεδόνων βασιλεύει Περδίκκου τελευτήσαντος, ἔτη <date from="-0420" to="-0419" when-custom="157" datingMethod="#marmor_parium"><num type="acrophonic">Η<supplied reason="lost">&#x10144;&#x10143;ΙΙ</supplied></num></date>,
+              <lb n="77"/><supplied reason="lost">ἄρ</supplied>χοντος Ἀθήνησιν Ἀστυφίλου.</seg>
+            <seg type="entry" n="62">ἀφ’ οὗ Διονύσιος Συρακουσσῶν ἐτυράννευσεν, ἔτη <date from="-0408" to="-0407" when-custom="147" datingMethod="#marmor_parium"><num type="acrophonic">ΗΔΔΔΔ&#x10143;ΙΙ</num></date>, ἄρχοντος Ἀθήνησιν Εὐκτήμονος.</seg>
+            <seg type="entry" n="63">ἀφ’ οὗ Εὐριπίδης βι<supplied reason="lost">ώσας ἔτη</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+              <lb n="78"/><supplied reason="lost">ἐτ</supplied>ελεύτησεν, ἔτη <date from="-0407" to="-0406" when-custom="145" datingMethod="#marmor_parium"><num type="acrophonic">ΗΔΔΔΔ&#x10143;</num></date>, ἄρχοντος Ἀθήνησι Ἀντιγένους.</seg>
+            <seg type="entry" n="64">ἀφ’ οὗ Σοφοκλῆς ὁ ποιητὴς βιώσας ἔτη <date type="life-span" dur="P92Y"><num type="acrophonic">&#x10144;ΔΔΔΔΙΙ</num></date> ἐτελεύτησεν, καὶ Κῦρος ἀνέβ<unclear>η</unclear> <supplied reason="lost">ἔτη <date from="-0406" to="-0405" when-custom="143" datingMethod="#marmor_parium"><num type="acrophonic">ΗΔΔΔΔΙΙΙ</num></date>,
+              <lb n="79" break="no"/>ἄρχ</supplied>οντος Ἀθήνησι Καλλίου τοῦ προτέρου.</seg>
+            <seg type="entry" n="65">ἀφ’ οὗ Τελέστης Σελινούντιος ἐνίκησεν Ἀθήνησιν, ἔτη <date from="-0402" to="-0401" when-custom="139" datingMethod="#marmor_parium"><num type="acrophonic">ΗΔΔΔ&#x10143;ΙΙΙΙ</num></date>, ἄρχοντος Ἀθήνησιν Μίκωνος.</seg>
+            <seg type="entry" n="66">ἀφ’ οὗ <supplied reason="lost">κατῆλθον οἱ Ἕλληνες οἱ
+              <lb n="80" break="no"/>μετ</supplied>ὰ Κύρου ἀναβάντες, καὶ Σωκράτης φιλόσοφος ἐτελεύτησεν, βιοὺς ἔτη <date type="life-span" dur="P70Y"><num type="acrophonic">&#x10144;ΔΔ</num></date>, ἔτη <date from="-0400" to="-0399" when-custom="137" datingMethod="#marmor_parium"><num type="acrophonic">ΗΔΔΔ&#x10143;ΙΙ</num></date>, ἄρχοντος Ἀθήνησιν Λάχητος.</seg>
+            <seg type="entry" n="67">ἀφ’ οὗ Ἀρ<supplied reason="lost">ι</supplied>στ<unclear>ο</unclear><supplied reason="lost">νους</supplied> <gap reason="lost" quantity="20" unit="character" precision="low"/> <supplied reason="lost">ἐνίκη
+              <lb n="81" break="no"/>σεν</supplied> Ἀθήνησιν, ἔτη <date from="-0399" to="-0398" when-custom="135" datingMethod="#marmor_parium"><num type="acrophonic">ΗΔΔΔ&#x10143;</num></date>, ἄρχοντος Ἀθήνησιν Ἀριστοκράτους.</seg>
+            <seg type="entry" n="68">ἀφ’ οὗ Π<unclear>ολ</unclear>ύιδος Σηλυμβριανὸς διθυράμβωι ἐνίκησεν Ἀθήνησιν, ἔτη <date><num type="acrophonic">Η<unclear>Δ</unclear><gap reason="lost" extent="unknown" unit="character"/></num></date> <supplied reason="lost">ἄρχοντος Ἀθήνησι</supplied> <gap reason="lost" extent="unknown" unit="character"/>.</seg>
+            <seg type="entry" n="69">
+              <lb n="82"/><supplied reason="lost">ἀφ’</supplied> οὗ Φιλόξενος διθυραμβοποιὸς τελευτᾶι, βιοὺς ἔτη <date type="life-span" dur="P55Y"><num type="acrophonic">&#x10144;&#x10143;</num></date>, ἔτη <date from="-0380" to="-0378" when-custom="116" datingMethod="#marmor_parium"><num type="acrophonic">ΗΔ&#x10143;Ι</num></date>, ἄρχοντος Ἀθήνησιν Πυθέου.</seg>
+            <seg type="entry" n="70">ἀφ’ οὗ Ἀναξανδρίδης ὁ κωμ<unclear>ο</unclear><supplied reason="lost">ιδοποιὸς</supplied> <gap reason="lost" quantity="15" unit="character" precision="low"/> <supplied reason="lost">ἄρχοντος</supplied>
+              <lb n="83"/>Ἀθήνησι Καλλέου.</seg>
+            <seg type="entry" n="71">ἀφ’ οὗ Ἀστυδάμας Ἀθήνησιν ἐνίκησεν, ἔτη <date from="-0373" to="-0371" when-custom="109" datingMethod="#marmor_parium"><num type="acrophonic">Η&#x10143;ΙΙΙΙ</num></date>, ἄρχοντος Ἀθήνησιν Ἀστείου. κατεκάη δὲ τότε κα<supplied reason="lost">ὶ ὁ ἐν Δελφοῖς ναός</supplied>.</seg>
+            <seg type="entry" n="72"><supplied reason="lost">ἀφ’ οὗ ἡ ἐν Λεύκτροις μάχη
+              <lb n="84" break="no"/>ἐ</supplied>γένετο Θηβαίων καὶ Λακεδαιμονίων, ἣν ἐνίκων Θηβαῖοι, ἔτη <date from="-0371" to="-0369" when-custom="107" datingMethod="#marmor_parium"><num type="acrophonic">Η&#x10143;ΙΙ</num></date>, ἄρχοντος Ἀθήνησιν Φρασικλείδου. καὶ Ἀλ<supplied reason="lost">έξανδρος</supplied> <gap reason="lost" quantity="20" unit="character" precision="low"/> <supplied reason="lost">Μακεδόνων</supplied>
+              <lb n="85"/>βασιλεύει.</seg>
+            <seg type="entry" n="73">ἀφ’ οὗ Στησίχορος ὁ Ἱμερ<supplied reason="omitted">α</supplied>ῖος ὁ δεύτερος ἐνίκησεν Ἀθήνησιν, καὶ οἰκίσθη Μεγάλη πόλ<unclear>ις</unclear> <supplied reason="lost">ἐν Ἀρκαδίαι, ἔτη <date from="-0370" to="-0367" when-custom="105" datingMethod="#marmor_parium"><num type="acrophonic">ΗΗ&#x10143;</num></date>, ἄρχοντος Ἀθήνησι</supplied> <gap reason="lost" extent="unknown" unit="character"/>.</seg>
+            <seg type="entry" n="74">
+              <lb n="86"/>ἀφ’ οὗ Διονύσιος Σικελιώτης ἐτελεύτησεν, ὁ δὲ υἱὸς Διονύσιος ἐτυράννευσεν, καὶ Ἀλε<unclear>ξάνδρ</unclear><supplied reason="lost">ου</supplied> <gap reason="lost" quantity="35" unit="character" precision="low"/> <supplied reason="lost">Μακεδόνων βα</supplied>
+              <lb n="87" break="no"/>σιλεύει, ἔτη <date from="-0368" to="-0366" when-custom="104" datingMethod="#marmor_parium"><num type="acrophonic">ΗΙΙΙΙ</num></date>, ἄρχοντος Ἀθήνησιν Ναυσιγένους.</seg>
+            <seg type="entry" n="75">ἀφ’ οὗ Φωκεῖς τὸ ἐν Δελφοῖς <unclear>μα</unclear><supplied reason="lost">ντεῖον κατέλαβον</supplied> <gap reason="illegible" atLeast="25" atMost="30" unit="character"/> <supplied reason="lost">ἔτη</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἄρχοντος Ἀθή</supplied>
+              <lb n="88" break="no"/>νησι Κηφισοδώρου.</seg>
+            <seg type="entry" n="76">ἀφ’ οὗ Τιμόθεος βιώσας ἔτη <date type="life-span" dur="P90Y"><num type="acrophonic">&#x10144;ΔΔΔΔ</num></date> ἐτελεύτησεν, ἔτ<supplied reason="lost">η</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἄρχοντος Ἀθήνησι</supplied> <gap reason="lost" extent="unknown" unit="character"/>.</seg>
+            <seg type="entry" n="77"><supplied reason="lost">ἀφ’ οὗ Φίλιππος ὁ Ἀμύντου Μα</supplied>
+              <lb n="89" break="no"/>κεδόνων βασιλεύει, καὶ Ἀρτοξέρξης ἐτελεύτησεν, Ὦχος δὲ ὁ υἱὸς β<supplied reason="lost">ασιλεύει</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἔτη</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἄρχοντος Ἀθήνησι</supplied> <gap reason="lost" extent="unknown" unit="character"/>.</seg>
+            <seg type="entry" n="78"><supplied reason="lost">ἀφ’ οὗ</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Ἀθήνη
+              <lb n="90" break="no"/>σιν</supplied> ἐνίκησεν, ἔτη <date from="-0357" to="-0355" when-custom="93" datingMethod="#marmor_parium"><num type="acrophonic">&#x10144;ΔΔΔΔΙΙΙ</num></date>, ἄρχοντος Ἀθήνησιν Ἀγαθοκλ<unclear>έους</unclear>.</seg>
+            <seg type="entry" n="79"><supplied reason="lost">ἀφ’ οὗ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+              <lb n="91"/><supplied reason="lost">ἐγ</supplied>ένετο, ἔτη <date from="-0355" to="-0353" when-custom="91" datingMethod="#marmor_parium"><num type="acrophonic">&#x10144;ΔΔΔΔΙ</num></date>, ἄρχοντος Ἀθήνησι Καλλισ<unclear>τ</unclear><supplied reason="lost">ράτου</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+              <lb n="92"/><gap reason="illegible" quantity="5" unit="character" precision="low"/>σοφος <gap reason="illegible" quantity="4" unit="character" precision="low"/>Τ<gap reason="illegible" quantity="3" unit="character"/> τούτου.</seg>
+            <seg type="entry" n="80">ἀφ’ οὗ Καλλι<gap reason="lost" extent="unknown" unit="character"/>
+              <lb n="93"/><supplied reason="lost">ἔτ</supplied>η &#x10144;<gap reason="lost" extent="unknown" unit="character"/> ἄρ<unclear>χοντος</unclear> <supplied reason="lost">Ἀθήνησι</supplied> <gap reason="lost" extent="unknown" unit="character"/>.</seg>
+          </ab>
+        </div>
+        
+        <div type="textpart" subtype="fragment" n="B">
+          <ab>
+            <seg type="entry" n="1">
+              <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ΔΟ<gap reason="lost" extent="unknown" unit="character"/>
+              <lb n="2"/><gap reason="lost" quantity="15" unit="character" precision="low"/> <supplied reason="lost">Φίλιππος ἐτ</supplied>ε<supplied reason="lost">λε</supplied>ύ<unclear>τη</unclear><supplied reason="lost">σ</supplied><unclear>ε</unclear>ν, Ἀ<unclear>λέ</unclear><supplied reason="lost">ξανδρ</supplied>ος δὲ βασιλεύει, ἔτη <date from="-0356" to="-0355" when-custom="72" datingMethod="#marmor_parium"><num type="acrophonic">&#x10144;ΔΔΙΙ</num></date>, ἄρχοντος Ἀθήνησι Πυθοδήλου.</seg>
+            <seg type="entry" n="2">ἀφ’ οὗ Ἀλέξανδρος εἰς Τριβαλλοὺς καὶ Ἰλλυριοὺς ἐστρά<supplied reason="lost">τευσε</supplied>
+              <lb n="3"/>καὶ Θηβαίων ἐπαναστάντων καὶ τὴμ φρουρὰν πολιορκούντων ἐπανελθὼν κατὰ κράτος λαβὼν τὴν πόλιν κατέσκαψεν, ἔτη <date from="-0335" to="-0334" when-custom="71" datingMethod="#marmor_parium"><num type="acrophonic">&#x10144;ΔΔΙ</num></date>, ἄρχοντος Ἀθήνησι Εὐαινέτου.</seg>
+            <seg type="entry" n="3">
+              <lb n="4"/>ἀπὸ τῆς Ἀλεξάνδρου διαβάσεως εἰς τὴν Ἀσίαν καὶ μάχης περὶ τὸν Γρανικόν, καὶ ἀπὸ τῆς ἐν Ἰσσῶι μάχης Ἀλεξάνδρωι πρὸς Δαρεῖον, ἔτη <date from="-0334" to="-0333" when-custom="70" datingMethod="#marmor_parium"><num type="acrophonic">&#x10144;ΔΔ</num></date>, ἄρχοντος Ἀθήνησι
+              <lb n="5"/>Κτησικλείους.</seg>
+            <seg type="entry" n="4">ἀφ’ οὗ Ἀλέξανδρος Φοινίκης καὶ Κύπρου καὶ Αἰγύπτου ἐκυρίευσε, ἔτη <date from="-0333" to="-0332" when-custom="69" datingMethod="#marmor_parium"><num type="acrophonic">&#x10144;Δ&#x10143;ΙΙΙΙ</num></date>, ἄρχοντος Ἀθήνησι Νικοκράτους.</seg>
+            <seg type="entry" n="5">ἀπὸ τῆς Ἀλεξάνδρου πρὸς Δαρεῖον μάχης
+              <lb n="6"/>τῆς περὶ Ἄρβηλα, ἣν ἐνίκησεν Ἀλέξανδρος· καὶ Βαβυλὼν ἥλω, καὶ ἀφῆκε τοὺς συμμάχους, καὶ Ἀλεξάνδρεια ἐκτίσθη, ἔτη <date from="-0332" to="-0331" when-custom="68" datingMethod="#marmor_parium"><num type="acrophonic">&#x10144;Δ&#x10143;ΙΙΙ</num></date>, ἄρχοντος Ἀθήνησιν Νικήτου.</seg>
+            <seg type="entry" n="6">ἀφ’ οὗ
+              <lb n="7"/>Κάλλιππος ἀστρολογίαν ἐξέθηκεν, καὶ Ἀλέξανδρος Δαρεῖον ἔλαβεν, Βῆσον δὲ ἐκρέμασεν, ἔτη <date from="-0330" to="-0329" when-custom="66" datingMethod="#marmor_parium"><num type="acrophonic">&#x10144;Δ&#x10143;Ι</num></date>, ἄρχοντος Ἀθήνησι Ἀριστοφῶντος.</seg>
+            <seg type="entry" n="7">ἀφ’ οὗ Φιλήμων ὁ κωμοιδο
+              <lb n="8" break="no"/>ποιὸς ἐνίκησεν, ἔτη <date from="-0328" to="-0327" when-custom="64" datingMethod="#marmor_parium"><num type="acrophonic">&#x10144;ΔΙΙΙΙ</num></date>, ἄρχοντος Ἀθήνησι Εὐθυκρίτου. ὠικίσθη δὲ πρὸς τῶι Τανάι πόλις Ἑλληνίς.</seg>
+            <seg type="entry" n="8">ἀπὸ τῆς Ἀλεξάνδρου μεταλλαγῆς καὶ Πτολεμαίου Αἰγύπτου
+              <lb n="9"/>κυριεύσεως, ἔτη <date from="-0324" to="-0323" when-custom="60" datingMethod="#marmor_parium"><num type="acrophonic">&#x10144;Δ</num></date>, ἄρχοντος Ἀθήνησι Ἡγησίου.</seg>
+            <seg type="entry" n="9">ἀπὸ τοῦ πολέμου τοῦ γενομένου περὶ <add place="overstrike">><gap reason="illegible" quantity="2" unit="character"/></add> Λαμίαν Ἀθηναίοις πρὸς Ἀντίπατρον, καὶ ἀπὸ τῆς ναυμαχίας
+              <lb n="10"/>τῆς γενομένης Μακεδόσιν πρὸς Ἀθηναίους περὶ Ἀμοργόν, ἣν ἐνίκων Μακεδόνες, ἔτη <date from="-0322" to="-0321" when-custom="58" datingMethod="#marmor_parium"><num type="acrophonic">&#x10144;&#x10143;ΙΙΙΙ</num></date>, ἄρχοντος Ἀθήνησιν Κηφισοδώρου.</seg>
+            <seg type="entry" n="10">ἀφ’ οὗ Ἀντίπατρος Ἀ
+              <lb n="11" break="no"/>θήνας ἔλαβε, καὶ Ὀφέλας Κυρήνην ἀποσταλεὶς ὑπὸ Πτολεμαίου, ἔτη <date from="-0323" to="-0322" when-custom="58" datingMethod="#marmor_parium"><num type="acrophonic">&#x10144;&#x10143;ΙΙΙ</num></date>, ἄρχοντος Ἀθήνησι Φιλοκλέους.</seg>
+            <seg type="entry" n="11">ἀφ’ οὗ Ἀντίγονος εἰς τὴν Ἀσίαν διέβη,
+              <lb n="12"/>καὶ Ἀλέξανδρος εἰς Μέμφιν ἐτέθη, καὶ Περδίκκας εἰς Αἴγυπτον στρατεύσας ἐτελεύτησεν, καὶ Κράτερος, καὶ Ἀριστοτέλης ὁ σοφιστὴς ἐτελεύτη
+              <lb n="13" break="no"/>σεν, ἔτη <date from="-0321" to="-0320" when-custom="57" datingMethod="#marmor_parium"><num type="acrophonic">&#x10144;&#x10143;ΙΙ</num></date>, βιοὺς ἔτη <date type="life-span" dur="P50Y"><num type="acrophonic">&#x10144;</num></date>, ἄρχοντος Ἀθήνησι Ἀρχίππου. ἐπορεύθη δὲ καὶ Πτολεμαῖος εἰς Κυρήνην.</seg>
+            <seg type="entry" n="12">ἀπὸ τῆς Ἀντιπάτρου τελευτῆς, Κασσάνδρου δὲ ἀποχωρήσεως
+              <lb n="14"/>ἐγ Μακεδονίας, καὶ ἀπὸ τῆς ἐγ Κυζίκωι πολιουρκίας, ἣν ἐπολιούρκησεν Ἀριδαῖος, καὶ ἀφ’ οὗ Πτολεμαῖος ἔλαβεν Συρίαν καὶ Φοινίκην, ἔτη <date from="-0319" to="-0318" when-custom="55" datingMethod="#marmor_parium"><num type="acrophonic">&#x10144;&#x10143;</num></date>, ἄρχοντος Ἀθή
+              <lb n="15" break="no"/>νησι Ἀπολλοδώρου. τῶι δ’ αὐτῶι ἔτει τούτωι καὶ Ἀγαθοκλῆν Συρακόσιοι εἵλοντο ἐπὶ τῶν ἐρυμάτων τῶν ἐν Σικελίαι αὐτοκράτορα στρατηγόν.</seg>
+            <seg type="entry" n="13">ἀπὸ τῆς Κλείτου
+              <lb n="16"/>ναυμαχίας καὶ Νικάνορος περὶ τὸ ἱερὸν τὸ Καλχηδονίων, καὶ ὅτε Δημήτριος νόμους ἔθηκεν Ἀθήνησιν, ἔτη <date from="-0317" to="-0316" when-custom="53" datingMethod="#marmor_parium"><num type="acrophonic">&#x10144;ΙΙΙ</num></date>, ἄρχοντος Ἀθήνησι Δημογένους.</seg>
+            <seg type="entry" n="14">ἀφ’ οὗ
+              <lb n="17"/> Κάσσανδρος εἰς Μακεδονίαν κατῆλθεν, καὶ Θῆβαι οἰκίσθησαν, καὶ Ὀλυμπιὰς ἐτελεύτησεν, καὶ Κασσάνδρεια ἐκτίσθη, καὶ Ἀγαθοκλῆς Συρακουσ
+              <lb n="18" break="no"/>σῶν ἐτυράννευσεν, ἔτη <date from="-0316" to="-0315" when-custom="52" datingMethod="#marmor_parium"><num type="acrophonic">&#x10144;ΙΙ</num></date>, ἄρχοντος Ἀθήνησι Δημοκλείδ<supplied reason="lost">ου</supplied>· ἐνίκα δὲ καὶ Μένανδρος ὁ κωμοιδοποιὸς Ἀθήνησιν τότε πρῶτον.</seg>
+            <seg type="entry" n="15">ἀφ’ οὗ Σωσιφά
+              <lb n="19" break="no"/>νης ποιητὴς τελευτᾶι, ἔτη <date from="-0313" to="-0312" when-custom="49" datingMethod="#marmor_parium"><num type="acrophonic">ΔΔΔΔ&#x10143;ΙΙΙΙ</num></date>, ἄρχοντος Ἀθήνησιν Θεοφράστου, <unclear>βι</unclear><supplied reason="lost">>οὺ</supplied><unclear>ς</unclear> <unclear>ἔτη</unclear> <date type="life-span" dur="P45Y"><num type="acrophonic"><unclear>Δ</unclear>ΔΔΔ&#x10143;</num></date>.</seg>
+            <seg type="entry" n="16">ἀφ’ οὗ ὁ ἥλιος ἐξέλιπεν, καὶ Πτολεμαῖος Δημήτριον ἐνίκα ἐν
+              <lb n="20"/>Γάζει καὶ Σέλευκον ἀπέστειλεν εἰς Βαβυλῶνα, ἔτη <date from="-0312" to="-0311" when-custom="48" datingMethod="#marmor_parium"><num type="acrophonic">Δ<unclear>Δ</unclear><supplied reason="lost">Δ</supplied>Δ&#x10143;ΙΙΙ</num></date>, ἄρχοντος Ἀθήνησιν Π<unclear>ο</unclear><supplied reason="lost">λέμ</supplied>ωνος.</seg>
+            <seg type="entry" n="17">ἀφ’ οὗ <supplied reason="lost">Ν</supplied><unclear>ικ</unclear>οκρέων ἐτελεύτησεν καὶ Πτολεμαῖος κυρι
+              <lb n="21" break="no"/>εύει τῆς νήσου, ἔτη <date from="-0311" to="-0310" when-custom="47" datingMethod="#marmor_parium"><num type="acrophonic">ΔΔΔΔ&#x10143;ΙΙ</num></date>, ἄρχοντος Ἀθήνησιν Σι<supplied reason="lost">μωνί</supplied><unclear>δ</unclear>ου.</seg>
+            <seg type="entry" n="18">ἀφ’ οὗ Ἀ<unclear>λέ</unclear><supplied reason="lost">ξ</supplied>α<supplied reason="lost">νδρος ὁ Ἀλεξάνδρου</supplied> τελευτᾶι καὶ ἕτερος ἐκ τῆς Ἀρταβάζου θυγατρὸς Ἡρα
+              <lb n="22" break="no"/>κλῆς, καὶ Ἀγαθοκλῆς διέβη εἰς Καρχηδ<supplied reason="lost">όνα</supplied> <gap reason="lost" quantity="35" unit="character" precision="low"/> <supplied reason="lost">ἔτη</supplied> <date from="-0310" to="-0309" when-custom="46" datingMethod="#marmor_parium"><num type="acrophonic"><supplied reason="lost">Δ</supplied>ΔΔΔ&#x10143;Ι</num></date>, ἄρχοντος Ἀθήνησι Ἱερομνήμονος.</seg>
+            <seg type="entry" n="19">ἀφ’ οὗ <unclear>Λ</unclear><supplied reason="lost">υ
+              <lb n="23" break="no"/>σι</supplied>μάχεια πόλις ἐκτίσθη, καὶ Ὀφέλας <unclear>εἰς</unclear> <supplied reason="lost">Κα</supplied>ρχ<supplied reason="lost">ηδόνα</supplied> <gap reason="lost" quantity="40" unit="character" precision="low"/> <unclear>κ</unclear>αὶ Πτολεμαῖος ὁ υἱὸς ἐγ Κῶι ἐγένετο, καὶ Κλ<supplied reason="lost">εο
+              <lb n="24" break="no"/>π</supplied>άτρα ἐν Σάρδεσιν ἀπέθαν<supplied reason="lost">ε</supplied> <gap reason="lost" quantity="35" unit="character" precision="low"/> <supplied reason="lost">ἔτη <date from="-0309" to="-0308" when-custom="45" datingMethod="#marmor_parium"><num type="acrophonic">ΔΔΔΔ&#x10143;</num></date>, ἄρχοντος Ἀ</supplied><unclear>θήνησ</unclear><supplied reason="lost">ι Δ</supplied><unclear>η</unclear>μ<unclear>ητ</unclear>ρίου.</seg>
+            <seg type="entry" n="20">ἀφ’ οὗ Δημήτριος ὁ Ἀντιγόνου τὸ<supplied reason="lost">μ
+              <lb n="25" break="no"/>Π</supplied>ειραιᾶ πολιορκήσας ἔλαβε<unclear>ν</unclear>, <gap reason="lost" quantity="35" unit="character" precision="low"/> <supplied reason="lost">ἔτη <date from="-0308" to="-0307" when-custom="44" datingMethod="#marmor_parium"><num type="acrophonic">ΔΔΔΔΔΙΙΙΙ</num></date>, ἄρχοντος</supplied> Ἀθήνησι Καιρίμου.</seg>
+            <seg type="entry" n="21">ἀφ’ οὗ Δημήτριος Μουνυχίαν κατέ
+              <lb n="26" break="no"/>σκαψεν καὶ Κύπρον ἔλαβεν καὶ Φιλλ<unclear>ι</unclear>π <gap reason="lost" quantity="22" unit="character" precision="low"/><supplied reason="lost">ΟΝ</supplied><gap reason="lost" quantity="18" unit="character" precision="low"/><supplied reason="lost">Σ</supplied><gap reason="illegible" quantity="1" unit="character"/><supplied reason="lost">ΟΥ ἔτη</supplied> <date from="-0307" to="-0306" when-custom="43" datingMethod="#marmor_parium"><num type="acrophonic"><supplied reason="lost">Δ</supplied>ΔΔΔ<unclear>ΙΙΙ</unclear></num></date>, ἄρχοντος Ἀθήνησιν Ἀναξικράτους.</seg>
+            <seg type="entry" n="22">
+              <lb n="27"/>ἀφ’ οὗ Σωσιφάνης ὁ ποιητὴς <unclear>ἐγέ</unclear><supplied reason="lost" cert="low">νετο</supplied> <gap reason="lost" quantity="25" unit="character" precision="low"/> <supplied reason="lost">ἔτη</supplied> <date from="-0306" to="-0305" when-custom="42" datingMethod="#marmor_parium"><num type="acrophonic">ΔΔΔΔΙΙ</num></date>, <supplied reason="lost">ἄρχοντος Ἀθήνη</supplied>σ<supplied reason="lost">ι Κ</supplied>οροίβου.</seg>
+            <seg type="entry" n="23">ἀπὸ τῆς περὶ Ῥόδον πολιορκίας, καὶ ἀφ’ ο<supplied reason="lost">ὗ
+              <lb n="28" break="no"/>Πτ</supplied>ολεμαῖος τὴν βασιλείαν π<unclear>α</unclear>ρ<supplied reason="lost">έ</supplied>λ<supplied reason="lost">α</supplied>>β<supplied reason="lost">εν, ἔτ</supplied>η <supplied reason="lost"><date from="-0305" to="-0304" when-custom="41" datingMethod="#marmor_parium"><num type="acrophonic">ΔΔΔΔΙ</num></date>, ἄρχοντος Ἀθήνησι Εὐξενίππου</supplied>.</seg>
+            <seg type="entry" n="24"><supplied reason="lost">ἀπὸ τῶ</supplied>ν σ<unclear>ει</unclear><supplied reason="lost">σ</supplied>μῶν τῶν <supplied reason="lost">γ</supplied><unclear>ε</unclear>νομένων καθ’ Ἰωνίαν, καὶ ὅτε Δη<unclear>μ</unclear>ήτριος Χαλκ<supplied reason="lost">ί
+               <lb n="29" break="no"/>δα ἔλα</supplied><unclear>βε</unclear>ν καθ’ ὁμολογίαν καὶ πρεσ<gap reason="lost" quantity="40" unit="character" precision="low"/> <supplied reason="lost">Δη</supplied>μητρίου, ἔτη <date from="-0304" to="-0303" when-custom="40" datingMethod="#marmor_parium"><num type="acrophonic">ΔΔΔΔ</num></date>, ἄρχοντος Ἀθήνησι Φερεκλείους.</seg>
+            <seg type="entry" n="25">ἀφ’ οὗ
+              <lb n="30"/><supplied reason="lost">κομήτης ἀσ</supplied>τὴρ ἐ<unclear>φ</unclear><supplied reason="lost">ά</supplied>ν<supplied reason="lost">η</supplied>, <unclear>κ</unclear>αὶ Λυσίμαχ<supplied reason="lost">ο</supplied><unclear>ς</unclear> <supplied reason="lost" cert="low">εἰς τὴν Ἀσίαν διέβη, ἔτη <date from="-0303" to="-0302" when-custom="39" datingMethod="#marmor_parium"><num type="acrophonic">ΔΔΔ&#x10143;ΙΙΙΙ</num></date>, ἄρχοντος Ἀθήνησι</supplied> Λ<supplied reason="lost">εωστ</supplied>ρ<supplied reason="lost">άτου</supplied>.</seg>
+            <seg type="entry" n="26"><unclear>ἀ</unclear><supplied reason="lost">φ’</supplied> οὗ <supplied reason="lost">δ</supplied>ιάλυσις Κασσάνδρωι καὶ Δημητρίωι
+              <lb n="31"/><supplied reason="lost">ἐγένετο</supplied> <gap reason="illegible" quantity="4" unit="character"/>ν<gap reason="illegible" quantity="7" unit="character"/> <unclear>Κ</unclear>ασσ<unclear>αν</unclear><supplied reason="lost">δ</supplied><unclear>ρο</unclear> <gap reason="lost" quantity="45" unit="character" precision="low"/> <supplied reason="lost">ἐτελεύτ</supplied><unclear>ησεν</unclear>, <supplied reason="lost">ἔτη</supplied> <date from="-0302" to="-0301" when-custom="38" datingMethod="#marmor_parium"><num type="acrophonic">ΔΔΔ&#x10143;ΙΙΙ</num></date>, ἄρχοντος Ἀθήνησι Νικοκλείους.</seg>
+            <seg type="entry" n="27">
+              <lb n="32"/><supplied reason="lost">ἀφ’ οὗ</supplied> <gap reason="lost" quantity="75" unit="character" precision="low"/> <supplied reason="lost">Δημη</supplied>τρίου εἰς Χαλκίδα ἀναβολῆς, Ἀθηναῖοι δὲ Κασ
+              <lb n="33" break="no"/><supplied reason="lost">σάνδρ</supplied> <gap reason="lost" quantity="80" unit="character" precision="low"/>] ι<unclear>ο</unclear>ι Πτολεμαί<gap reason="illegible" quantity="8" unit="character"/> <unclear>ἔ</unclear>τη <date from="-0299" to="-0298" when-custom="35" datingMethod="#marmor_parium"><num type="acrophonic">ΔΔΔ&#x10143;</num></date>,
+              <lb n="34"/><supplied reason="lost">ἄρχοντος Ἀθήνησι Εὐκτήμονος</supplied>.</seg>
+          </ab>
+        </div>
+      </div>      
+    </body>
+  </text>
+</TEI>
