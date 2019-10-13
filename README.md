@@ -7,7 +7,7 @@ This repository collects XML versions of the following editions of the Greek tex
 * `fgrhist_239`: [*FGrHist* 239](https://referenceworks.brillonline.com/entries/die-fragmente-der-griechischen-historiker-i-iii/marmor-parium-239-a239)
 * `rotstein_2016`: A. Rotstein. *Literary History in the Parian Marble*. Center for Hellenic Studies. Washington DC: Harvard University Press. 2016, pp. [21-38](https://chs.harvard.edu/CHS/article/display/6484.2-text-and-translation)
 
-The text of the Parian Marble is characterized by [Attic acrophonic numerals](https://en.wikipedia.org/wiki/Attic_numerals) to express the number of years that elapse from 264/63 BC and to express people's ages. These numerals are encoded according to the EpiDoc guidelines: see [Dates, Dating Formulae, Ages](http://www.stoa.org/epidoc/gl/latest/idx-datesage.html)and [Acrophonic numbers](http://www.stoa.org/epidoc/gl/latest/trans-numacrophonic.html).
+The text of the Parian Marble is characterized by [Attic acrophonic numerals](https://en.wikipedia.org/wiki/Attic_numerals) to express the number of years that elapse from 264/63 BC and to express people's ages. These numerals are encoded according to the EpiDoc guidelines: see [Dates, Dating Formulae, Ages](http://www.stoa.org/epidoc/gl/latest/idx-datesage.html) and [Acrophonic numbers](http://www.stoa.org/epidoc/gl/latest/trans-numacrophonic.html).
 
 The acrophonic numbers five (𐅃) and fifty (𐅄) are encoded with their correspondent HTML entitites (`&#x10143;` and `&#x10144;`) for reasons of portability, because not every font and editor can display them.
 
