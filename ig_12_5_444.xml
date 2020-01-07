@@ -90,6 +90,7 @@
       <change who="#MB" when="2015-02-12">Revised XML file</change>
       <change who="#SS" when="2015-05-27">Updated encoding of dates and dating information</change>
       <change who="#MB" when="2019-10-04">Revised XML file</change>
+      <change who="#MB" when="2020-01-07">Revised XML file</change>
     </revisionDesc>
 
   </teiHeader>
